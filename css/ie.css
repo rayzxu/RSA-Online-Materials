@@ -1,0 +1,51 @@
+.contain-area .wrap, input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], textarea, input[type="button"], input[type="submit"], button, select, .inner-banner{ behavior: url(js/pie.htc); position:relative; }
+.home-slider.owl-carousel { behavior: url(js/pie.htc); }
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"] { line-height:44px; }
+.home-slider.owl-carousel, .contain-area .wrap, .inner-banner { box-shadow:0 0 22px #ccc; }
+
+#mainmenu > .wrap > ul > li:before, .ie7  #mainmenu > .wrap > ul > li .before { background:url(../images/bgi/sprites.png) -133px -3px no-repeat; }
+
+.classname {
+	 *zoom: expression(
+				this.runtimeStyle.zoom="1",
+				this.appendChild( document.createElement("span") ).className="after"
+		);
+}
+
+.phone-number span.sp-before, .footer-phone.sp-before {
+	*zoom: expression(
+				this.runtimeStyle.zoom="1",
+				this.appendChild( document.createElement("strong") ).className="before"
+		);
+}
+
+.phone-number, #mainmenu > .wrap > ul > li {
+	*zoom: expression(
+				this.runtimeStyle.zoom="1",
+				this.appendChild( document.createElement("span") ).className="before"
+		);
+}
+
+.ie7 .phone-number { top:-14px; z-index:0; }
+.ie7 .phone-number span.sp-before { z-index:10; line-height:120%; }
+
+.footer-top h3 { width:690px; }
+
+.ie7 .form-list li input[type="text"] { width:92%; }
+.ie7 .form-list li textarea { width:92%; padding:12px 14px 0; }
+
+.ie7  #mainmenu > .wrap > ul > li:first-child .before { display:none; }
+
+.ie #content_header{
+	background: url(../images/bgi/header_bg.png) no-repeat center center;
+	background-size: cover;
+}
+
+.ie #navigation li a{
+	background-color: #FFFFFF;
+}
+
+.ie body{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bgi/bg.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bgi/bg.png', sizingMethod='scale')";
+}
